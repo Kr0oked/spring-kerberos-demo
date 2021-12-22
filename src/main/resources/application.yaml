@@ -1,0 +1,5 @@
+app:
+  service-principal: HTTP/app.example.com@EXAMPLE.COM
+  keytab: classpath:/app.keytab
+  realm: EXAMPLE.COM
+  kdc: kerberos.example.com
